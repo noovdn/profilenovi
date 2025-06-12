@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap)
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:midnightblue;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: midnightblue;
+}
+
+.home .home-content h1{
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 0.2;
+    color:bisque;
+}
+
+span{
+    color: hwb(180 0% 0%);
+}
+
+.home-content h2{
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color:aqua;
+}
+
+.home-content h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 35vh;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #;
+} 
+
+.fa-instagram{
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    justify-content: center;
+    align-items:center;
+    width: 30px;
+    height: 30px;
+    background-color:transparent;
+    font-size: 3rem;
+    border-radius: 50%;
+    margin:3rem 1.5rem 3rem 0;;
+    transition: 0.3s ease;
+    color:brown
+}
+
+.fa-instagram:hover{
+    color:antiquewhite;
+    transform: scale(1.3) translateY(-5px);
+}
+
+.fa-spotify{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    justify-content: center;
+    align-items:center;
+    width: 60px;
+    height: 30px;
+    background-color:transparent;
+    font-size: 3rem;
+    border-radius: 50%;
+    margin:3rem 1.5rem 3rem 0;;
+    transition: 0.3s ease;
+    color:darkgreen
+}
+
+.fa-spotify:hover{
+    color:antiquewhite;
+    transform: scale(1.3) translateY(-5px);
+}
+
+.fa-whatsapp{
+    position: absolute;
+    bottom: 5px;
+    left: 60%;
+    justify-content: center;
+    align-items:center;
+    width: 90px;
+    height: 30px;
+    background-color:transparent;
+    font-size: 3rem;
+    border-radius: 50%;
+    margin:3rem 1.5rem 3rem 0;;
+    transition: 0.3s ease;
+    color: green
+}
+
+.fa-whatsapp:hover{
+    color:antiquewhite;
+    transform: scale(1.3) translateY(-5px);
+}
+
+
+
